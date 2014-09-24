@@ -1,6 +1,6 @@
 # Destroyall GEM
 Created by [Alexandr Basan]()
-www.proalab.com
+- (www.proalab.com)
 
 TODO: Simple gem for quick add destroy all method for all models.
 
@@ -40,6 +40,16 @@ Example:
 
 In first method gem destroy all records in table Users
 In second method gem destroy all records in table Users where user status = inactive
+
+Also you maybe need to create form for delete all records in your model
+
+    <%= form_for(destroy_all(model), :html => {:method => 'delete'}) do |f| %>
+        <%= f.submit "Delete" %>
+    <% end %>
+
+If you need more information about methods using for gem work, please see rubydoc
+
+    $ http://apidock.com/rails/ActiveRecord/Base/destroy_all/class
 
 ## Contributing
 
