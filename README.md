@@ -47,6 +47,12 @@ Also you maybe need to create form for delete all records in your model
         <%= f.submit "Delete" %>
     <% end %>
 
+or you can use simple method without gem
+
+    <%= form_for(User.destroy_all("last_login < '2004-04-04'"), :html => {:method => 'delete'}) do |f| %>
+        <%= f.submit "Delete" %>
+    <% end %>
+
 If you need more information about methods using for gem work, please see rubydoc
 
     $ http://apidock.com/rails/ActiveRecord/Base/destroy_all/class
