@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Simple gem for quick add destroy all method for all models. This gem add simple method destroyall for all models for quick destroy all records in table.}
   spec.homepage      = "https://github.com/Proalab/gem_destroy_all"
   spec.license       = "MIT"
-  spec.required_ruby_version = '~> 1.0'
+  spec.required_ruby_version = '>= 1.0'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
