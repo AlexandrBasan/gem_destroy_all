@@ -1,7 +1,7 @@
 require "destroyall/version"
 
 module Destroyall
-  class DestroyAllRecords < ::ApplicationController
+  class DestroyAllRecordsController < ApplicationController
     def destroy_all(model)
       if model.nil?
       else
