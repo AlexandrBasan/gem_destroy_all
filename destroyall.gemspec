@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Destroyall::VERSION
   spec.authors       = ["Alexandr Basan"]
   spec.email         = ["alexandr.basan@gmail.com"]
-  spec.summary       = %q{TODO: Simple gem for quick add destroy all method for all models.}
-  spec.description   = %q{TODO: Simple gem for quick add destroy all method for all models. This gem add simple method destroyall for all models for quick destroy all records in table.}
+  spec.summary       = %q{Simple gem for quick add destroy all method for all models.}
+  spec.description   = %q{Simple gem for quick add destroy all method for all models. This gem add simple method destroyall for all models for quick destroy all records in table.}
   spec.homepage      = "https://github.com/Proalab/gem_destroy_all"
   spec.license       = "MIT"
   spec.required_ruby_version = '~> 1.0'
