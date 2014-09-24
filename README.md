@@ -4,6 +4,8 @@ Created by [Alexandr Basan]()
 
 TODO: Simple gem for quick add destroy all method for all models.
 
+<b>Attention!!!. This gem delete all records from database without confirmation!!!</b>
+
 ## Installation
 
 Add this line to your application's Gemfile:
