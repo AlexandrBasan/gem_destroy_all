@@ -43,7 +43,7 @@ In second method gem destroy all records in table Users where user status = inac
 
 Also you maybe need to create form for delete all records in your model
 
-    <%= form_for(destroy_all(model), :html => {:method => 'delete'}) do |f| %>
+    <%= form_for(Destroyall.destroy_all(model), :html => {:method => 'delete'}) do |f| %>
         <%= f.submit "Delete" %>
     <% end %>
 
