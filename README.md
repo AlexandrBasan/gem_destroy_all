@@ -1,4 +1,6 @@
-# Destroyall
+# Destroyall GEM
+Created by [Alexandr Basan]()
+www.proalab.com
 
 TODO: Simple gem for quick add destroy all method for all models.
 
@@ -29,8 +31,15 @@ Gem have 2 methods:
     $ destroy_all(model)
     $ destroy_all_with_conditions(model, conditions, conditions_value)
 
-Using destroy_all method you can set model_name as argument.
-Using destroy_all_with_conditions method you can set model_name as argument model, condition as condition (this argument auto convert to Symbol) and conditional_value as String value for conditions.
+Using destroy_all method you can set Model name as argument model.
+Using destroy_all_with_conditions method you can set Model name as argument model, condition as condition (this argument auto convert to Symbol) and conditional_value as String value for conditions.
+Example:
+
+    $ destroy_all(user)
+    $ destroy_all_with_conditions(user, status, inactive)
+
+In first method gem destroy all records in table Users
+In second method gem destroy all records in table Users where user status = inactive
 
 ## Contributing
 
