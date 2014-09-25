@@ -45,11 +45,11 @@ In second method gem destroy all records in table Users where user status = inac
 
 Also you maybe need to create form for delete all records in your model
 
-    <%= link_to Destroyall.destroy_all(User), data: { confirm: 'Are you sure?' } %>
+    <%= link_to "Destroy all", data: { confirm: 'Are you sure?' }, :onclick => Destroyall.destroy_all(User) %>
 
 or you can use simple method without gem
 
-    <%= link_to User.destroy_all, data: { confirm: 'Are you sure?' } %>
+    <%= link_to "Destroy all", data: { confirm: 'Are you sure?' }, :onclick => User.destroy_all %>
 
 If you need more information about methods using for gem work, please see rubydoc
 
