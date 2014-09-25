@@ -1,5 +1,4 @@
 require "destroyall/version"
-require "destroyall/engine"
 
 module Destroyall
   def self.destroy_all(model)
